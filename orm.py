@@ -5,7 +5,7 @@ def calc_weight(pct):
     return nearest_five(working_max * pct)
 
 exercise = input('To begin, enter an exercise: ')
-print('Enter the heaviest weight you have recently lifted for', exercise)
+print('Enter the heaviest weight you have recently performed for', exercise)
 
 while True :
     try:
@@ -26,7 +26,7 @@ while True:
 max = nearest_five(weight * reps * 0.0333 + weight)
 working_max = nearest_five(max * .9)
 
-print('Your one rep max is: %i pounds'%max)
+print('Your estimated one rep max is: %i pounds'%max)
 print('Please find your workout below:')
 
 def get_workout():
