@@ -73,7 +73,11 @@ def get_workout():
         print('Rep Scheme:', week['rep_scheme'])
         set_count = 1
         for weight in week['weights']:
-            print('Set %i: %i pounds' % (set_count, weight))
+            if set_count == 3 and week['title'] != 'Week 4' :
+                amrap = '(as many reps as possible)'
+            else :
+                amrap = None
+            print('Set %i: %i pounds %s' % (set_count, weight, amrap))
             set_count = set_count + 1
 
 phase = 1
