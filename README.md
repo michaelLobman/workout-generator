@@ -8,8 +8,8 @@ This simple application will ask which exercise you're looking to improve upon a
 
 From there, it will give you a 20-week rep scheme - divided into five 4-week phases.
 
-'''terminal
+```terminal
 python3 orm.py -e ["ENTER EXERCISE"] -w ["ENTER WEIGHT LIFTED"] -r ["ENTER NUMBER OF REPS PERFORMED]
-''`
+```
 
 I am building out a front end to make the process easier - but this works in a pinch.
