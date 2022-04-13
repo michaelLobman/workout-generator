@@ -4,7 +4,7 @@ Welcome to a quick workout template I threw together when I found myself spendin
 
 The workout template is based on Wendler's 5-3-1 strength training program that centers around four main exercises: Squat, Bench Press, Deadlift, and Military Press.
 
-This simple application will ask which exercise you're looking to improve upon and the heaviest weight (and reps) you have recently performed for it.
+This simple CLI will ask which exercise you're looking to improve upon and the heaviest weight (and reps) you have recently performed for it.
 
 From there, it will give you a 20-week rep scheme - divided into five 4-week phases.
 
