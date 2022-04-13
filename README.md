@@ -1,4 +1,4 @@
-# workout-plan
+# 5/3/1 Workout Generator
 
 Welcome to a quick workout template I threw together when I found myself spending too much time figuring out percentages at the gym.
 
