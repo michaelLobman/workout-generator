@@ -12,10 +12,10 @@ def main():
 
     max = nearest_five(args.weight * args.reps * .0333 + args.weight)     
     working_max = nearest_five(max * .9)
-  
+
     def calc_weight(pct):
         return nearest_five(working_max * pct)
-
+        
     def get_workout():
         workout_tup = (
         {
@@ -65,16 +65,12 @@ def main():
                 else :
                     print('Set %i: %i pounds' % (set_count, weight))
                 set_count = set_count + 1
-
     phase = 1
     while phase < 6 :
         print('__Phase %i__' % phase)
         get_workout()
         working_max = working_max + 5
         phase = phase + 1
-
-
-
 main()
 
 
